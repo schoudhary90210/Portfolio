@@ -1,0 +1,77 @@
+/* ===========================================
+   SCHOUDHARY CAPITAL — 3D Portfolio Globals
+   =========================================== */
+
+:root {
+  --bg-base: #0a0a0a;
+  --bg-panel: #111111;
+  --bg-panel-hover: #161616;
+  --bg-elevated: #1a1a1a;
+  --bg-input: #0d0d0d;
+
+  --border-default: #1e1e1e;
+  --border-subtle: #151515;
+
+  --text-primary: #e8e8e8;
+  --text-secondary: #888888;
+  --text-muted: #555555;
+
+  --green: #4ade80;
+  --blue: #60a5fa;
+  --orange: #f97316;
+  --amber: #f59e0b;
+  --cyan: #22d3ee;
+  --purple: #a78bfa;
+  --red: #ef4444;
+
+  --green-glow: rgba(74, 222, 128, 0.08);
+  --blue-glow: rgba(96, 165, 250, 0.08);
+  --orange-glow: rgba(249, 115, 22, 0.08);
+  --amber-glow: rgba(245, 158, 11, 0.08);
+  --cyan-glow: rgba(34, 211, 238, 0.08);
+  --purple-glow: rgba(167, 139, 250, 0.08);
+
+  --font-mono: 'JetBrains Mono', 'Courier New', monospace;
+  --font-display: 'Space Grotesk', sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  font-family: var(--font-mono);
+  background: var(--bg-base);
+  color: var(--text-primary);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* The R3F canvas fills the entire viewport */
+.canvas-container {
+  position: fixed;
+  inset: 0;
+  z-index: 1;
+}
+
+/* Selection */
+::selection {
+  background: var(--green);
+  color: var(--bg-base);
+}
+
+/* Scrollbar (for overlays) */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: var(--bg-base); }
+::-webkit-scrollbar-thumb { background: var(--border-default); border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: var(--text-muted); }

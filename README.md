@@ -12,7 +12,7 @@
 
 ### A 3D Quant Trading Floor Portfolio
 
-[![Live Demo](https://img.shields.io/badge/LIVE-siddhantchoudhary.vercel.app-4ade80?style=for-the-badge&logo=vercel&logoColor=white)](https://siddhantchoudhary.vercel.app)
+[![Live Demo](https://img.shields.io/badge/LIVE-siddhantchoudhary.vercel.app-4ade80?style=for-the-badge&logo=vercel&logoColor=white)](https://siddhant-choudhary.vercel.app)
 [![Built With](https://img.shields.io/badge/Built_With-React_Three_Fiber-61dafb?style=for-the-badge&logo=threedotjs&logoColor=white)](https://docs.pmnd.rs/react-three-fiber)
 
 </div>
